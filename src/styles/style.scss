@@ -75,6 +75,9 @@ Default Styles
 @import 'default/common';
 @import 'default/forms';
 
+.place-items-center {
+    place-items: center !important;
+}
 /* ===============================
 Elements Styles
 ================================== */
