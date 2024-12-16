@@ -15,8 +15,8 @@ const TopSellingProducts = () => {
             subColor="highlighter-secondary"
           />
         <SwiperSlider slidesPerView={4}>
-          {sellingProducts.map((product) => (
-            <ProductOne product={product} />
+          {sellingProducts.map((product, index) => (
+            <ProductOne key={index} product={product} />
           ))}
         </SwiperSlider>
       </div>
