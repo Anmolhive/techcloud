@@ -11,7 +11,6 @@ const ProductOne = ({ product, pClass }) => {
     const getAttributeData = (data) => {
         setColorAttribute(data.img);
     }
-
   return (
     <>
       <div className={`axil-product product-style-one ${pClass ?? ""}`}>

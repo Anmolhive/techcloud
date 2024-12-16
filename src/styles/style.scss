@@ -75,9 +75,6 @@ Default Styles
 @import 'default/common';
 @import 'default/forms';
 
-.place-items-center {
-    place-items: center !important;
-}
 /* ===============================
 Elements Styles
 ================================== */
@@ -149,3 +146,8 @@ Dark Style
 /* ===============================
 RTL Style
 ================================== */
+
+/* ===============================
+CUSTOM Style
+================================== */
+@import 'custom'

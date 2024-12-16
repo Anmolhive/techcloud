@@ -7,14 +7,15 @@ import Section from "../elements/Section";
 import { Category } from "@/data/ProductCategory";
 import { slugify } from "@/utils";
 
-const CategoryElectronics = () => {
+const CategoryElectronics = ({cat=''}) => {
   const pathname = usePathname();
   const split = pathname.split("/");
-  const pageCategory = split[split.length - 1];
+  const pageCategory = cat === '' ? split[split.length - 1] : cat;
   
   const findCategory = Category.filter(
     (data) => slugify(data.cate) === pageCategory
     );
+    console.log(pageCategory);
     const electronics = findCategory[0].subCate;
 
   return (
