@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 const SwiperSlider = ({ children, slidesPerView }) => {
   const wrappedChildren = React.Children.map(children, (child) => (
@@ -13,13 +14,17 @@ const SwiperSlider = ({ children, slidesPerView }) => {
   return (
     <Swiper
       slidesPerView={slidesPerView}
-      spaceBetween={30}
-      pagination={{
-        clickable: true,
+      spaceBetween={1}
+      speed={4000}
+      direction="horizontal"
+      autoplay={{
+        delay: 0,
       }}
-      navigation={true}
-      modules={[Navigation]}
-      className="swiper-slider"
+      loop={true}
+      freeMode={true}
+      navigation={false}
+      modules={[Autoplay]}
+      className="swiper-slider swiper"
     >
       {wrappedChildren}
     </Swiper>

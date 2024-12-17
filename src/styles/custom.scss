@@ -18,3 +18,34 @@
         padding: 1rem;
     }
 }
+
+.product-style-one {
+    .thumbnail {
+        height: 30rem;
+        display: flex;
+        align-items: center;
+
+        .cart-action  {
+            li {
+                box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.3);
+            }
+        }
+    }
+}
+
+
+.swiper {
+    margin: 0 48px;
+    position: static;
+  }
+  
+  .swiper .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    transition-timing-function : linear;
+  }
+  
+  .swiper img {
+    margin: 0 auto;
+  }
+  

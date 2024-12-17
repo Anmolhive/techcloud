@@ -3,7 +3,7 @@ import CategoryElectronics from '../category/CategoryElectronics'
 
 const HomeCategory = () => {
   return (
-    <CategoryElectronics cat="electronics" />
+    <CategoryElectronics cat="software" />
   )
 }
 

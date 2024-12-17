@@ -4,6 +4,7 @@ import SearchBanner from "@/components/banner/searchBanner";
 import HomeCategory from "@/components/HomeCategory/HomeCategory";
 import Ads from "@/components/ads/Ads";
 import TopSellingProducts from "@/components/topSellingProducts/TopSellingProducts";
+import ClientSlider from "@/components/ClientSlider/ClientSlider";
 
 
 export const metadata = {
@@ -20,6 +21,7 @@ const HomeOne = () => {
         <HomeCategory />
         <Ads />
         <TopSellingProducts />
+        <ClientSlider />
       </main>
       <FooterTwo />
     </>

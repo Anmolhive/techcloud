@@ -1,5 +1,45 @@
 const Category = [
     {
+        cate: "Software",
+        cateThumb: "/images/product/categories/soft-1.png",
+        hasSub: true,
+        subCate: [
+            {
+                name: "Accounting Software",
+                thumb: "/images/product/categories/soft-1.png"
+            },
+            {
+                name: "Stock Market Software",
+                thumb: "/images/product/categories/soft-2.png"
+            },
+            {
+                name: "POS Software",
+                thumb: "/images/product/categories/soft-3.png"
+            },
+            {
+                name: "CRM Software",
+                thumb: "/images/product/categories/soft-4.png"
+            },
+            {
+                name: "HR Software",
+                thumb: "/images/product/categories/soft-5.png"
+            },
+            {
+                name: "Digital Signature Software",
+                thumb: "/images/product/categories/soft-6.png"
+            },
+            {
+                name: "Billing And Invoicing Software",
+                thumb: "/images/product/categories/soft-7.png"
+            },
+            {
+                name: "Plagiarism Checker",
+                thumb: "/images/product/categories/soft-8.png"
+            },
+
+        ]
+    },
+    {
         cate: "Electronics",
         cateThumb: "/images/product/categories/jewelry-2.png",
         hasSub: true,

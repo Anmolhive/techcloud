@@ -1,30 +1,16 @@
 const ProductsData = [
     {
         id: 1,
-        title: "3D™ wireless headset",
-        thumbnail: "/images/product/product-big-03.png",
-        hoverThumbnail: "/images/product/product-big-02.png",
+        title: "Kaspersky Antivirus",
+        thumbnail: "/images/product/software/1.png",
+        hoverThumbnail: "/images/product/software/1.png",
         gallery: ["/images/product/product-big-01.png","/images/product/product-big-02.png","/images/product/product-big-03.png","/images/product/product-big-02.png"],
-        pCate: "Electronics",
+        pCate: "Software",
         cate: ["Headphones", "Computers"],
         price: 500,
         salePrice: 400,
         productType: "variable",
         sizeAttribute: [ 'XL', 'L', 'M', 'S', 'XS'],
-        colorAttribute: [
-            {
-                color: 'red',
-                img:"/images/product/product-big-03.png",
-            },
-            {
-                color: 'black',
-                img:"/images/product/product-big-02.png"
-            },
-            {
-                color: 'skyblue',
-                img:"/images/product/product-big-01.png"
-            }
-        ],
         shortDes: {
             text: "In ornare lorem ut est dapibus, ut tincidunt nisi pretium. Integer ante est, elementum eget magna. Pellentesque sagittis dictum libero, eu dignissim tellus.", 
             listItem: '<li><i class="fal fa-check"></i>In stock</li><li><i class="fal fa-check"></i>Free delivery available</li><li><i class="fal fa-check"></i>Sales 30% Off Use Code: MOTIVE30</li>'
@@ -84,11 +70,11 @@ const ProductsData = [
     },
     {
         id: 2,
-        title: "PS2 DualShock 2 Wireless Controller",
-        thumbnail: "/images/product/electric/product-08.png",
-        hoverThumbnail: "/images/product/electric/product-08.png",
+        title: "Quick Heal Total Security",
+        thumbnail: "/images/product/software/2.png",
+        hoverThumbnail: "/images/product/software/2.png",
         gallery: ["/images/product/electric/product-08.png","/images/product/product-big-02.png","/images/product/product-big-03.png","/images/product/product-big-02.png"],
-        pCate: "Electronics",
+        pCate: "Software",
         cate: ["PC Gaming"],
         price: 49.99,
         salePrice: 29.99,
@@ -126,9 +112,9 @@ const ProductsData = [
     },
     {
         id: 3,
-        title: "Wired Keyboard & Mouse Combo Pack",
-        thumbnail: "/images/product/electric/product-02.png",
-        hoverThumbnail: "/images/product/electric/product-06.png",
+        title: "HPE Networking Instant On Access Point AP22",
+        thumbnail: "/images/product/software/3.png",
+        hoverThumbnail: "/images/product/software/3.png",
         gallery: ["/images/product/electric/product-02.png","/images/product/product-big-02.png","/images/product/product-big-03.png","/images/product/product-big-02.png"],
         pCate: "Electronics",
         cate: ["Accessories"],
@@ -182,8 +168,8 @@ const ProductsData = [
     },
     {
         id: 4,
-        title: "Logitech Streamcam",
-        thumbnail: "/images/product/electric/product-03.png",
+        title: "Talentpool Recruitment Software",
+        thumbnail: "/images/product/software/4.png",
         gallery: ["/images/product/electric/product-03.png","/images/product/product-big-02.png","/images/product/product-big-03.png","/images/product/product-big-02.png"],
         pCate: "Electronics",
         cate: ["Camera & Photo"],
@@ -237,9 +223,9 @@ const ProductsData = [
     },
     {
         id: 5,
-        title: "3D™ wireless headset",
-        thumbnail: "/images/product/electric/product-04.png",
-        hoverThumbnail: "/images/product/electric/product-06.png",
+        title: "eRe4u",
+        thumbnail: "/images/product/software/5.png",
+        hoverThumbnail: "/images/product/software/5.png",
         gallery: ["/images/product/electric/product-04.png","/images/product/product-big-02.png","/images/product/product-big-03.png","/images/product/product-big-02.png"],
         pCate: "Electronics",
         cate: ["Headphones"],
@@ -279,9 +265,9 @@ const ProductsData = [
     },
     {
         id: 6,
-        title: "Bass Meets Clarity",
-        thumbnail: "/images/product/electric/product-05.png",
-        hoverThumbnail: "/images/product/electric/product-04.png",
+        title: "Vyapar Billing Software",
+        thumbnail: "/images/product/software/6.png",
+        hoverThumbnail: "/images/product/software/6.png",
         gallery: ["/images/product/electric/product-05.png","/images/product/product-big-02.png","/images/product/product-big-03.png","/images/product/product-big-02.png"],
         pCate: "Electronics",
         cate: ["Accessories"],
