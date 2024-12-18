@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
-const SwiperSlider = ({ children, slidesPerView }) => {
+const SwiperSlider = ({ children, slidesPerView, reverse = false }) => {
   const wrappedChildren = React.Children.map(children, (child) => (
     <SwiperSlide>{child}</SwiperSlide>
   ));
@@ -19,6 +19,7 @@ const SwiperSlider = ({ children, slidesPerView }) => {
       direction="horizontal"
       autoplay={{
         delay: 0,
+        reverseDirection: reverse,
       }}
       loop={true}
       freeMode={true}

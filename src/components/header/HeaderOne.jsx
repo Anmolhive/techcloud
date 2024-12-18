@@ -34,11 +34,11 @@ const HeaderOne = () => {
 
   return (
     <header className="header axil-header header-style-1" ref={axilHeader}>
-      <HeaderTopNotify>
+      {/* <HeaderTopNotify>
         <p>
           Open Doors To A World Of Fashion <Link href="/">Discover More</Link>
         </p>
-      </HeaderTopNotify>
+      </HeaderTopNotify> */}
 
       <div className="axil-header-top">
         <div className="container">

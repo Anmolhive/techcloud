@@ -32,7 +32,7 @@ const HomePage = () => {
         <HeaderOne />
         <main className="main-wrapper">
             <BannerOne />
-            <CategoryElectronics />
+            <CategoryElectronics cat="" />
             <PosterOne singleAnimation/>
             <Section>
                 <SectionTitle
