@@ -42,7 +42,7 @@ const HeaderOne = () => {
 
       <div className="axil-header-top">
         <div className="container">
-          <div className="row align-items-center">
+          {/* <div className="row align-items-center">
             <div className="col-sm-6">
               <div className="header-top-dropdown">
                 <LangDropdown />
@@ -52,7 +52,7 @@ const HeaderOne = () => {
             <div className="col-sm-6">
               <HeaderQuickLink />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id="axil-sticky-placeholder" ref={axilPlaceholder}/>

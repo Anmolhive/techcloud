@@ -5,7 +5,8 @@ import HomeCategory from "@/components/HomeCategory/HomeCategory";
 import Ads from "@/components/ads/Ads";
 import TopSellingProducts from "@/components/topSellingProducts/TopSellingProducts";
 import ClientSlider from "@/components/ClientSlider/ClientSlider";
-
+import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
+import ExploreOurProduct from "@/components/exploreOurProduct/ExploreOurProduct";
 
 export const metadata = {
   title: "eTrade Multipurpose eCommerce Next JS Template",
@@ -22,6 +23,8 @@ const HomeOne = () => {
         <Ads />
         <TopSellingProducts />
         <ClientSlider />
+        <ExploreOurProduct />
+        <TestimonialTwo />
       </main>
       <FooterTwo />
     </>
