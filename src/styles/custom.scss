@@ -25,7 +25,9 @@
 /*-----------------------
     Custom Styles  
 -------------------------*/
-
+.axil-mainmenu.axil-sticky {
+    z-index: 9999;
+}
 
 
 .swiper-slider {
@@ -72,10 +74,51 @@
     background-color: rgba(255,255,255,.2);
   }
   
-
+  @keyframes slide {
+   0% {
+    background-position: 0% 50%;
+   } 
+   50% {
+    background-position: 100% 50%;
+   }   
+   100% {
+    background-position: 0% 50%;
+   } 
+  }
   .footer-style-2 {
-    background: linear-gradient(90deg, rgba(121, 9, 120, 0.6) 29%, rgba(0, 212, 255, 0.65) 80%);
-    .axil-footer-widget .inner ul li a{
+    background: linear-gradient(150deg, #003f5b, #0d456e, #27497f, #424b8e, #604b98, #7f479c, #9e419a, #bb3892, #d42f84, #e92b71, #f7345a, #ff483f);
+    background-size: 500%;
+    background-position: 0% 50%;
+    animation: slide 10s ease-in-out forwards infinite;
+    .widget-title {
         color: #fff !important;
+    }
+    .axil-footer-widget .inner {
+        ul li a, p, span{
+        color: #fff !important;
+        }
+    }
+
+    .social-share {
+        i {
+            color: #fff !important;
+        }
+    }
+
+    .quick-link *, .card-text {
+        color: #fff !important;
+    }
+
+    
+  }
+
+  .selar-btn {
+    background-color: #93c5fd !important;
+
+    &::after {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 50rem !important;
+        scale: 1.1 !important;
     }
   }

@@ -21,11 +21,11 @@ const HeaderActions = (props) => {
   };
   const cartHandler = (data) => {
     dispatch(miniCartHandler(data));
-  }
+  };
 
-const mobileMneuHandler = (data) => {
-  dispatch(mobileMenu(data))
-}
+  const mobileMneuHandler = (data) => {
+    dispatch(mobileMenu(data));
+  };
   return (
     <div className="header-action">
       <ul className="action-list">
@@ -56,17 +56,16 @@ const mobileMneuHandler = (data) => {
 
         <li className="wishlist">
           <Link href="/wishlist">
-            {getProducts.wishListQuantity > 0 && 
+            {getProducts.wishListQuantity > 0 && (
               <span className="cart-count">{getProducts.wishListQuantity}</span>
-            }
+            )}
             <i className="far fa-heart" />
           </Link>
         </li>
         <li className="shopping-cart">
-          <button className="cart-dropdown-btn" onClick={() => cartHandler(true)}>
-            <span className="cart-count">{getProducts.cartQuantityTotal}</span>
-            <i className="far fa-shopping-cart" />
-          </button>
+          <Link href="/sign-in" className="btn selar-btn px-4 rounded-pill">
+          Become a Seller
+          </Link>
         </li>
         <li className="my-account">
           <button onClick={accountDropdownToggler}>
@@ -82,6 +81,18 @@ const mobileMneuHandler = (data) => {
               </li>
               <li>
                 <Link href="dashboard/orders">Orders</Link>
+              </li>
+              <li>
+                <button
+                  className="cart-dropdown-btn"
+                  onClick={() => cartHandler(true)}
+                >
+                  Cart
+                  <span className="cart-count">
+                    {getProducts.cartQuantityTotal}
+                  </span>
+                  <i className="far fa-shopping-cart" />
+                </button>
               </li>
               <li>
                 <Link href="dashboard/account-details">Settings</Link>
@@ -101,7 +112,10 @@ const mobileMneuHandler = (data) => {
           </div>
         </li>
         <li className="axil-mobile-toggle">
-          <button className="menu-btn mobile-nav-toggler" onClick={() => mobileMneuHandler(true)}>
+          <button
+            className="menu-btn mobile-nav-toggler"
+            onClick={() => mobileMneuHandler(true)}
+          >
             <i className="fal fa-bars"></i>
           </button>
         </li>
